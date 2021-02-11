@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    list-style: none;
+    padding: 1vw;
+}
+
+a, a:visited, a:active{
+    color: white;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: wheat;
+    text-decoration: underline;
+}
+
+header {
+    color: white;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: black; */
+
+}
+nav{
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    /* width: 50vw; */
+    /* font-size: 2vh; */
+    max-width: 70vw;
+    flex-wrap: wrap;
+    font-size: 2vh;
+}
+
+
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1vw;
+
+}
+
+.container {
+ 
+ /* background-color: black; */
+ background:black;
+ color: wheat;
+ height: 100vh;
+ width: 100vw;
+ display: flex;
+ flex-direction: column;
+ /* align-items: center; */
+}
+
+.contain {
+    /* background-color: blanchedalmond; */
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1vh;
+    /* height: 100vh; */
+    align-items: center;
+}
+
+.ieee{
+    font-size: 11vh;
+    color: white;
+    font-weight: bold;
+}
+
+.auditions {
+    font-size: 5vh;
+}
+
+.tag {
+    font: italic;
+    font-style: italic;
+}
+
+button {
+    padding: 1vh;
+    margin: 1vh;
+    border-radius: 2vh;
+    border: none;
+    font-size: 2vh;
+    background-color: white;
+}
+
+button:hover {
+    border-bottom: black solid 3px;
+    border-right: black solid 3px ;
+    background-color: rgb(236, 221, 134);
+}
+
+@media screen and (max-width: 640px) {
+
+    nav {
+        font-size: 12px;
+    }
+
+    .container{
+        background: url('images/background.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+}
