@@ -84,8 +84,7 @@ ul {
 }
 
 .tag {
-    font: italic;
-    font-style: italic;
+    font-size: 2vh;
 }
 
 button {
